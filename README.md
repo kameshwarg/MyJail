@@ -16,14 +16,18 @@ chroot d /bin/bash
 Note: might have to use sudo if restricted
 
 once the chroot to the jail (the folder 'd' that was created) you would be in a fully functioning debian setup
-[insert image]
+https://github.com/kameshwarg/MyJail/blob/master/ls.png
+
 
 Now you may install your packages of choosing
-example
 `apt update`
+
 you may want to update your package manager, probably `yum upgrade -y` in redhat
+
 `apt-get install docker`
-[insert image]
+
+https://github.com/kameshwarg/MyJail/blob/master/dockerinstall.png
+
 you can run docker within the confines of folder 'd'
 `apt-get install postgresql`
 
