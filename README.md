@@ -12,6 +12,7 @@ mount -B /proc d/proc
 mount -B /sys d/sys
 chroot d /bin/bash
 ```
+Follow https://www.redhat.com/sysadmin/deeper-linux-chroot-jails to create chroot for redhat
 
 Note: might have to use sudo if restricted
 
