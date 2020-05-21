@@ -29,9 +29,9 @@ you may want to update your package manager, probably `yum upgrade -y` in redhat
 
 ![](dockerinstall.png)
 
-you can run docker within the confines of folder 'd'
+you can run docker within the confines of folder 'd' or even postgre
 `apt-get install postgresql`
 
-Note: you may have to jump through some hoops to get the services started as it is chroot and requests might be ignored
+Note: you may have to jump through some hoops to get the services started as it is within chroot and requests might be ignored
 https://superuser.com/questions/688733/start-a-systemd-service-inside-chroot
 
